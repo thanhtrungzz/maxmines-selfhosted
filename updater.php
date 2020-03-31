@@ -29,7 +29,7 @@ Trên máy chủ của bạn, nhập crontab -e và đặt dòng này ở dướ
 *********************************/
 
 $updateTime = time();
-$updater = "https://github.com/thanhtrungzz/maxmines-version/checkupdate";
+$updater = "https://raw.githubusercontent.com/thanhtrungzz/maxmines-version/master/checkupdate";
 $versionFile = "lib/mm_version.txt";
 $myfile = fopen($versionFile, "r") or die("Unable to open file!");
 $version = (int)fread($myfile,filesize($versionFile));
