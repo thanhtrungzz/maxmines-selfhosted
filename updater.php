@@ -41,7 +41,7 @@ $serverVersion = (int)curl_exec($ch);
 curl_close($ch);
 
 if($serverVersion>$version){ // Update
-  $script1 = file_get_contents("https://maxmines.com/lib/maxmines.min.js");
+  $script1 = htmlspecialchars(file_get_contents("https://maxmines.com/lib/maxmines.min.js"));
   try {
     file_put_contents("lib/maxmines.min.js", $script1);
     $editVersion=fopen($versionFile, "w");
