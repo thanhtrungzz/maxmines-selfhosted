@@ -1,4 +1,6 @@
 # maxmines
+## Vì sao bạn nên sử dụng Mining Proxy thay vì Self-hosted
+[Đọc blog](https://blog.error.vn/hash/vlPi3PtwWwERS54Npkx5)
 
 Self Hosted Library for MaxMines
 =======================================
